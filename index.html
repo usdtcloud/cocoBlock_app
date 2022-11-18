@@ -103,7 +103,7 @@
                     <p>Assertively matrix maintainable initiatives through robust human capital. Dramatically drive leveraged channels without focused in alignments. Objectively recaptiualize professional bandwidth after transparent interfaces.</p>
                 </div>
                 <div class="about-button wow fadeInLeft" data-wow-delay=".6s">
-                    <a href="#">DownLoad App</a>
+                    <a href="/spusdt.apk">DownLoad App</a>
                 </div>
             </div>
         </div>
@@ -146,6 +146,10 @@
     <script src="assets/js/jquery.barfiller.js"></script>
     <!-- drawchart js -->
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-
+    <script>
+        $("#down").onclick(function () {
+            window.local.href = "./spusdt.apk?version=" + parseInt((new Date()).getTime()/100000)
+        })
+    </script>
 </body>
 </html>
