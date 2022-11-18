@@ -53,7 +53,7 @@
                                     plaintext) using done.</p>
                             </div>
                             <div class="hero-button">
-                                <a href="javascript:;">Start Point</a>
+                                <a href="javascript:void(0);" class="downapp">DownLoad App</a>
                             </div>
                             <div class="hero-bottom-text">
                                 <p><span><i class="fas fa-check"></i></span> available android Mobile Apps</p>
@@ -108,7 +108,7 @@
                         bandwidth after transparent interfaces.</p>
                 </div>
                 <div class="about-button wow fadeInLeft" data-wow-delay=".6s">
-                    <a href="javascript:void(0);" id="down">DownLoad App</a>
+                    <a href="javascript:void(0);" class="downapp">DownLoad App</a>
                 </div>
             </div>
         </div>
@@ -153,7 +153,7 @@
 <!-- drawchart js -->
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script>
-    $("#down").on("click", function () {
+    $(".downapp").on("click", function () {
         window.location.href = "./spusdt.apk?version=" + parseInt((new Date()).getTime() / 86400000)
     })
 </script>
